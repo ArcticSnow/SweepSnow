@@ -80,6 +80,7 @@ def get_profile(nscan=3):
             for sample in scan.samples:
                 measurements.append(sample)
         pdm = pd.DataFrame(measurements)
+	pdm.columns = ['angle','distance','signal_strength']
         pdm['timestamp'] = int(time.time())
         pdm['sample_rate'] = sample_rate
         pdm['motor_speed'] = motor_speed
@@ -111,7 +112,7 @@ def parse_data_to_raw_DB(df):
     :return:
     '''
 
-    path2db = '../../scanse.db'
+    path2db = '/home/bluesnow/scanse.db'
     tablename = 'sweep_raw'
 
     initialize_db_table(path2db, tablename)
