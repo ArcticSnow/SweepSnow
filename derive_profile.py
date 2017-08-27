@@ -30,9 +30,9 @@ db = dataset.connect('sqlite:///scanse.db')
 table = db['sweep_raw']
 
 
-def load_raw_data()
+def load_raw_data():
 
-    return df
+    return
 
 def estimate_snow_profile(df_raw):
     return

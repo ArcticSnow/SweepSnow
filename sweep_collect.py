@@ -80,7 +80,7 @@ def get_profile(nscan=3):
             for sample in scan.samples:
                 measurements.append(sample)
         pdm = pd.DataFrame(measurements)
-	pdm.columns = ['angle','distance','signal_strength']
+        pdm.columns = ['angle','distance','signal_strength']
         pdm['timestamp'] = int(time.time())
         pdm['sample_rate'] = sample_rate
         pdm['motor_speed'] = motor_speed
@@ -88,6 +88,7 @@ def get_profile(nscan=3):
         return pdm
     else:
         return
+
 
 
 def initialize_db_table(path2db=None, tablename=None, columnList=None):

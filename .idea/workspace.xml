@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27dc5c1c-983b-4178-89d1-7d86a62f7346" name="Default" comment="" />
+    <list default="true" id="27dc5c1c-983b-4178-89d1-7d86a62f7346" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derive_profile.py" afterPath="$PROJECT_DIR$/derive_profile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sweep_collect.py" afterPath="$PROJECT_DIR$/sweep_collect.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +27,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sweep_collect.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sweep_collect.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sweep_collect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="-625">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
                 <element signature="e#704#1215#0" expanded="false" />
-                <element signature="e#1248#2354#0" expanded="false" />
-                <element signature="e#2433#2929#0" expanded="false" />
-                <element signature="e#2966#3310#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -41,11 +56,9 @@
       <file leaf-file-name="derive_profile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/derive_profile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
-              <folding>
-                <element signature="e#46#77#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,12 +73,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/derive_profile.py" />
         <option value="$PROJECT_DIR$/sweep_collect.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -73,6 +90,7 @@
     <option name="width" value="1948" />
     <option name="height" value="1598" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -203,14 +221,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1948" height="1598" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5676127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56745183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40245664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40333092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -248,9 +265,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -259,9 +273,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -280,9 +292,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -302,9 +311,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -324,9 +330,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -346,9 +349,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -368,9 +368,6 @@
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -385,25 +382,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/derive_profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sweep_collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="-625">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
             <element signature="e#704#1215#0" expanded="false" />
-            <element signature="e#1248#2354#0" expanded="false" />
-            <element signature="e#2433#2929#0" expanded="false" />
-            <element signature="e#2966#3310#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
