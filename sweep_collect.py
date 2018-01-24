@@ -1,17 +1,20 @@
-
+#!/usr/nin/python
+__author__ = 'Simon Filhol'
 from __future__ import division
 #from __future__ import print_function
 
 import pandas as pd
-import sys, os
+import sys, os, getopt
 
 #===============================================
 # include functions here
 
 
 from sweeppy import Sweep
-import time
+import time, math
 import sqlite3
+
+
 
 #===============================================
 
@@ -21,6 +24,10 @@ import sqlite3
 2- parse data to csv
 3- dump data to database (use dataset package)
 [optional] 4- push data to UIO ftp server 
+
+TODO:
+
+    - create a log file
 
 Function scannerON() and scannerOFF() must either power USB port on/off, or trigger a switch
 '''
@@ -93,7 +100,7 @@ def get_profile(nscan=3):
 
 def initialize_db_table(path2db=None, tablename=None, columnList=None):
     if path2db is None:
-        path2db = '../../scanse.db'
+        path2db = '/home/driftlidar/scanse.db'
     if tablename is None:
         tablename = 'sweep_raw'
     if columnList is None:
@@ -113,17 +120,36 @@ def parse_data_to_raw_DB(df):
     :return:
     '''
 
-    path2db = '/home/bluesnow/scanse.db'
+    path2db = '/home/driftlidar/scanse.db'
     tablename = 'sweep_raw'
 
     initialize_db_table(path2db, tablename)
     conn = sqlite3.connect(path2db)
-    df.to_sql(tablename, conn, if_exists='append', index=False)
-    conn.close()
-    print("Data added to DB")
+    try:
+        df.to_sql(tablename, conn, if_exists='append', index=False)
+        conn.close()
+        print("Data added to DB")
+    except:
+        print("WARNING: could not add data to DB")
 
+def cyl2cart(angle, distance):
+    x = distance * math.cos(angle * math.pi / 180)
+    y = distance * math.sin(angle * math.pi / 180)
+    return x,y
 
 def main(argv):
+
+    nbscan = 3
+
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "nbscans:" )
+    except getopt.GetoptError as e:
+        print str(e)
+        sys.exit(2)
+    for o, a in opts:
+        if o == '-nbscans':
+            nbscan = a
+    print ("Number of scans = %d" % (nbscan))
 
     scannerON()
     #time.sleep(10)

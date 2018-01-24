@@ -35,6 +35,13 @@ def load_raw_data():
     return
 
 def estimate_snow_profile(df_raw):
+
+    inclination = 20
+
+    x = distance * math.cos(degrees * math.pi / 180)
+    y = distance * math.sin(degrees * math.pi / 180)
+
+
     return
 
 

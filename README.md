@@ -1,12 +1,29 @@
 # README.md
 
 ## Description
-Package to operate the Scanse Sweep scanner with python from a raspberrypi
+Package to operate the Scanse Sweep scanner, and a Maxbotix sonic ranger with python from a raspberrypi.
 
 Written by S. Filhol, August 2017
 
 ## Installation
 See Zim notes
+
+
+
+## Usage
+
+```bash
+# perform 20 scans with Sweep
+python sweep_collect.py -nbscans 20
+
+# perform 30 measurement from the maxbotix
+python maxbotix_collect.py -nbm 30
+
+```
+
+
+
+
 
 ## Idea, TODOs
 
