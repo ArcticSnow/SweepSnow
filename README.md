@@ -144,6 +144,14 @@ exit 0
 
 ```
 
+### Run python program with a crontab job
+```sh
+crontab -e
+
+# then add the command line python ..... at the interval wanted
+```
+
+
 ## Extra ressources for Raspberry Pi
 
  		==== RTC clock  ====
